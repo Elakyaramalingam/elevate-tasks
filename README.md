@@ -2,6 +2,9 @@
 
 This repository is designed to manage tasks and track the full data processing pipeline for a data science AI or machine learning project. It covers every critical step from collecting raw data to preparing clean, analysis-ready datasets.
 
+STATUS:IN PROGRESS
+"45 days CODING challenge"
+
 ---
 
 ## 🚀 Project Phases
@@ -76,7 +79,5 @@ This repository is designed to manage tasks and track the full data processing p
   - Store scalers for later use (e.g., in pipelines)
 
 ---
-
-## 📁 Repository Structure
 
 
