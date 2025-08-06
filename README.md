@@ -1,83 +1,58 @@
-# 📊 Data Preparation & Tasks Repository
+# STATUS:IN PROGRESS
+# "45 days CODING challenge"
 
-This repository is designed to manage tasks and track the full data processing pipeline for a data science AI or machine learning project. It covers every critical step from collecting raw data to preparing clean, analysis-ready datasets.
+# 🚢 Titanic Dataset - Exploratory Data Analysis (EDA)
 
-STATUS:IN PROGRESS
-"45 days CODING challenge"
-
----
-
-## 🚀 Project Phases
-
-### 📥 1. Data Collection
-- **Description**: Gathering raw data from sources like CSV files, APIs, databases, or web scraping.
-- **Tools**: Python (e.g., `pandas`, `requests`, `BeautifulSoup`), SQL
-- **Tasks**:
-  - Identify and document all data sources
-  - Automate data extraction when possible
-  - Store raw data in `data/raw/`
+This repository contains an Exploratory Data Analysis (EDA) project using the **Titanic dataset** from Kaggle. The goal is to understand patterns, trends, and key features that influenced passenger survival.
 
 ---
 
-### 🧹 2. Data Cleaning
-- **Description**: Cleaning the raw data by removing duplicates, handling format issues, fixing typos, and dropping irrelevant fields.
-- **Tasks**:
-  - Standardize column names and data types
-  - Remove or correct invalid entries
-  - Save cleaned data in `data/cleaned/`
+✅ Task 2: EDA Steps Followed
+
+# Summary Statistics
+- Used `.describe()` to calculate mean, std, min, max, percentiles.
+- Used `.isnull().sum()` to check for missing values.
+
+# Visual Analysis (Histograms and Boxplots)
+- Created histograms to view distributions (e.g., Age).
+- Used boxplots to identify outliers (e.g., Fare).
+
+# Feature Relationships (Correlation)
+- Generated a correlation matrix to see numeric relationships.
+- Used Seaborn `pairplot` for visualizing interactions between features.
+
+# Pattern & Trend Detection
+- Found higher survival rates among:
+  - Females
+  - 1st Class passengers
+  - Young children
+- Passengers with higher fares tended to survive more.
+
+# Feature-Level Inference
+- `Sex`, `Pclass`, `Fare`, and `Age` were strong indicators of survival.
+- `Embarked` value 'S' had the most passengers but lowest survival rate.
 
 ---
 
-### 🧼 3. Data Preprocessing
-- **Description**: Preparing data for modeling, including encoding categorical variables and formatting date/time fields.
-- **Techniques**:
-  - Label Encoding
-  - One-Hot Encoding
-  - Feature extraction from datetime
-- **Tasks**:
-  - Convert non-numeric columns into numerical format
-  - Extract new features if applicable
-
----
-
-### ❓ 4. Handling Missing Values
-- **Description**: Identifying and treating missing data using appropriate strategies.
-- **Techniques**:
-  - Mean/Median/Mode imputation
-  - Forward/Backward fill
-  - Row removal (if necessary)
-- **Tasks**:
-  - Visualize and analyze missing patterns
-  - Decide method per column
-  - Log the changes for traceability
-
----
-
-### 🚨 5. Outlier Detection & Treatment
-- **Description**: Detecting and managing extreme values that can skew results.
-- **Techniques**:
-  - IQR Method
-  - Z-Score Method
-  - Boxplots for visualization
-- **Treatment Options**:
-  - Capping/flooring
-  - Transformation
-- **Tasks**:
-  - Detect outliers in key columns
-  - Decide treatment method
-  - Save cleaned version in `data/processed/`
-
----
-
-### 📏 6. Data Normalization / Scaling
-- **Description**: Scaling numerical data for better model performance.
-- **Techniques**:
-  - Min-Max Scaling
-  - Standardization (Z-score)
-- **Tasks**:
-  - Apply scaling on numerical features
-  - Store scalers for later use (e.g., in pipelines)
+# libraries
+- `pandas`
+- `matplotlib`
+- `seaborn`
 
 ---
 
 
+1. Clone the repo  
+2. Install dependencies (`pip install pandas matplotlib seaborn`)  
+3. Run the EDA notebook or script
+
+---
+
+
+
+This EDA helps identify important features and potential preprocessing steps for building machine learning models to predict survival.
+
+---
+
+# source:
+Dataset: [Kaggle Titanic Competition](https://www.kaggle.com/competitions/titanic)
