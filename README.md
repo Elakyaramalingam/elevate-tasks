@@ -1,1 +1,1 @@
-# elevate-tasks
+This repository is a centralized space for managing, organizing, and tracking tasks across various projects or categories. Whether you're working individually or collaborating with a team, this repo helps keep everything clear and in one place
