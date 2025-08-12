@@ -2,15 +2,19 @@
 # "45 days CODING challenge"
 
 # Overview
-This repository contains a regression model designed to predict continuous outcomes based on input features. The model is built using [insert library/framework, e.g., scikit-learn, TensorFlow] and is suitable for [insert specific use case or industry].
-
-# Features
-
-- Linear Regression: A linear model that assumes a linear relationship between inputs and outputs.
-- Regularization: Techniques like L1 and L2 regularization can be applied to prevent overfitting.
-- Hyperparameter Tuning: Model performance can be optimized by tuning hyperparameters like learning rate and regularization strength.
+This project builds a binary classifier using logistic regression.
 
 # Requirements
 
-- Python [insert version, e.g., 3.8+]
-- [Insert library/framework, e.g., scikit-learn, TensorFlow
+- Python 3.8+
+- Scikit-learn
+- Pandas
+
+# Usage
+
+1. Train the model: Use logistic regression to train the model on your dataset.
+2. Predict binary outcomes: Use the trained model to predict binary outcomes.
+
+# Model Details
+
+- Logistic Regression: A binary classification algorithm that predicts probabilities of belonging to one of two classes.
