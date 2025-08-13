@@ -15,6 +15,4 @@ This project builds a binary classifier using logistic regression.
 1. Train the model: Use logistic regression to train the model on your dataset.
 2. Predict binary outcomes: Use the trained model to predict binary outcomes.
 
-# Model Details
 
-- Logistic Regression: A binary classification algorithm that predicts probabilities of belonging to one of two classes.
