@@ -1,9 +1,6 @@
 # STATUS:IN PROGRESS
 # "45 days CODING challenge"
 
-# Overview
-This project builds a binary classifier using logistic regression.
-
 # Requirements
 
 - Python 3.8+
